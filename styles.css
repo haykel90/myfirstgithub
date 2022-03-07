@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  li {
+      float: left;
+  }
+  li a {
+    color: aqua;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+  }
+  li a:hover {
+    background-color:azure;
+  }
+  @font-face {
+    font-family:roboto,sans-serif;
+    src:url(fonts/roboto-Font-Regular.ttf) format('truetype');
+    font-weight:bold;
+  }
+  h1{ 
+    font-size: 50px;
+    font-family:'roboto';
+  }
+  footer{
+color: darkcyan;
+text-align: center;
+font-size: x-small;
+  }
+label {
+  margin-left: 200px;
+  padding: 150px;
+}
+
